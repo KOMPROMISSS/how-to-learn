@@ -43,7 +43,7 @@
   width: 765px;
   right: 0;
   bottom: -1px;
-  z-index: 5;
+  z-index: 1;
   /* background-size: cover;
   background-position: center; */
 }
@@ -54,6 +54,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -64,6 +65,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -171,6 +173,7 @@
 .feynman {
   display: flex;
   position: relative;
+  flex-direction: column;
   height: 890px;
   background: #f2f2f2;
 }
@@ -178,25 +181,27 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
   width: 648px;
   left: 480px;
-  top: 20px;
   z-index: 1;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 .feynman__subtitle {
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
-  top: 445px;
-  left: 650px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   z-index: 1;
+  margin: 0 auto;
+  margin-top: 70px;
 }
 .feynman__link {
   color: #2f80ed;
+  margin: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -210,4 +215,82 @@
   bottom: 0px;
   width: 867px;
   height: 637px;
+}
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* margin: 0 auto; */
+  justify-content: space-around;
+  height: 700px;
+  background: #1f1f1f;
+  align-items: center;
+  overflow: hidden;
+}
+.kaufman__flex {
+display: flex;
+flex-direction: column;
+width: 60%;
+align-items: center;
+justify-items: center;
+}
+.section-title_theme_dark {
+  /* position: absolute; */
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-top: 90px;
+  line-height: 1.15;
+  font-weight: 600;
+  font-size: 60px;
+}
+.section-subtitle_theme_dark {
+  width: 60%;
+  color: white;
+  /* position: absolute; */
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  z-index: 1;
+}
+.table_theme_dark {
+  display: flex;
+  width: 1100px;
+  /* position: absolute; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* top: 125px; */
+  z-index: 1;
+}
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  z-index: 1;
+}
+.table__heading_theme_dark {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.15;
+  font-size: 24px;
+  z-index: 1;
+}
+.table__text_theme_dark {
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 1;
+}
+.kaufman__triangle {
+  position: absolute;
+  z-index: 0;
+  height: 877px;
+  width: 877px;
+  right: -210px;
+  top: 0;
 }
