@@ -19,6 +19,10 @@
   align-items: center;
   /* выше установили ограничения для секции */
 }
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
 .logo__place_header{
   position: absolute;
   top: 30px;
@@ -86,8 +90,10 @@
   width: 80%;
   display: flex;
   position: absolute;
-  top: 100px;
-  bottom: 100px;
+  /* top: 100px; */
+  /* bottom: 100px; */
+  margin-top: 100px;
+  margin-bottom: 100px;
   justify-content: space-between;
 }
 .two-columns__brief {
@@ -296,7 +302,6 @@ justify-items: center;
 }
 .footer {
   min-height: 350px;
-  height: 350px;
   display: flex;
   background: #1f1f1f;
   position: relative;
@@ -309,16 +314,13 @@ justify-items: center;
   margin-bottom: 40px;
   width: 90%;
   height: 250px;
-  /* flex: 711px auto auto; */
-  flex: 2;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .footer__columns_content_copyright {
   /* display: flex; */
   /* position: absolute; */
-  /* flex-basis: 711px; */
+  flex-basis: 711px;
   /* width: 50%; */
-  flex: 2;
 }
 .logo__place_footer {
   width: 228px;
@@ -326,8 +328,7 @@ justify-items: center;
 }
 .footer__author {
   position: absolute;
-  top: 214px;
-  /* bottom: 0px; */
+  bottom: 0px;
   margin: 18px 0;
   color: #f2f2f2;
   line-height: 25px;
@@ -338,7 +339,6 @@ justify-items: center;
   /* position: absolute; */
   /* left: 711px; */
   color: #f2f2f2;
-  flex: 1;
   /* display: flex; */
   /* flex-direction: column; */
 }
@@ -350,7 +350,8 @@ justify-items: center;
   margin-top: 0px;
 }
 .footer__column-links {
-  /* position: absolute; */
+  display: inline-block;
+  padding: 0;
   margin-top: 0;
   margin-bottom: 16px;
   line-height: 30px;
@@ -359,17 +360,17 @@ justify-items: center;
   list-style-type: none;
 }
 .footer__column-link {
-  position: absolute;
   color: #f2f2f2;
 }
 .footer__columns_content_social {
   /* position: absolute; */
   color: #f2f2f2;
-  flex: 1;
 }
 .footer__social-icon {
-  position: absolute;
   height: 16px;
   width: 16px;
   margin-right: 10px;
+}
+.footer__column-link_a {
+  text-decoration: none;
 }
