@@ -23,13 +23,3 @@
 @import url(__paragraph/two-columns__paragraph.css);
 @import url(__iframe/video__iframe.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(__image/cards__image.css);
-@import url(__link/feynman__link.css);
-@import url(__column/_content/footer__column_content_info.css);
-@import url(__square-pic/header__square-pic.css);
-@import url(__quote-author/khan__quote-author.css);
-@import url(__text/_theme/table__text_theme_dark.css);
-@import url(__main-text/two-columns__main-text.css);
-@import url(../blocks/techniques/techniques.css);
-
-

@@ -4,7 +4,7 @@
 @import url(__buy-link/khan__buy-link.css);
 @import url(__container/khan__container.css);
 @import url(__quote-author-subline/khan__quote-author-subline.css);
-
+@import url(__quote-author/khan__quote-author.css);
 
 .khan {
     padding-top: 105px;
