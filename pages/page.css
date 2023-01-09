@@ -10,6 +10,7 @@
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
 
 .page {
     min-width: 1100px;
