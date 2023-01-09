@@ -1,6 +1,5 @@
 @import url(__column/_content/footer__column_content_copyright.css);
 @import url(__columns/footer__columns.css);
-@import url(__author/footer__author.css);
 
 .footer {
     min-height: 350px;
