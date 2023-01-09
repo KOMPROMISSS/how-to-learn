@@ -3,6 +3,7 @@
 @import url(__heading/_theme/table__heading_theme_dark.css);
 @import url(__heading/table__heading.css);
 
+
 .table {
     margin: 0 auto;
     display: flex;
