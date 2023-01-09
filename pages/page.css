@@ -15,7 +15,6 @@
 @import url(../blocks/table/table.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/video/video.css);
 
 .page {
     min-width: 1100px;
