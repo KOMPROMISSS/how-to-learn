@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    min-height: auto;
     align-items: center;
     padding: 100px 0;
 }
