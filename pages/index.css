@@ -1,4 +1,4 @@
-@import url(../normalize/normalize.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/digits/digits.css);
@@ -17,7 +17,7 @@
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/video/video.css);
-@import url(../blocks/root/page.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__item/cards__item.css);
